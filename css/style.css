@@ -1,0 +1,63 @@
+*::before,
+*::after{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;}
+
+
+  :root{
+    --color-primaray:#ff5722;
+    --color-secondary-light:#fff6f2;
+    --color-secondary-dark:#ffa589;
+    --color-navbar-:#f8f8f8;
+    --color-headings:#000;
+    --color-body:#333333;
+    --color-white:#fff;
+  }
+  html{font-size: 62.5%;}
+  body{color: var(--color-body);
+  font-size: 1.4rem;}
+
+  h1,h2,h3{color: var(--color-headings);
+  font-size: 700;}
+  h1{font-size: 2.5rem;}
+  h2{font-size: 2.2rem;}
+  
+  @media screen and(min-width:1024px) {
+    body{
+      font-size: 1.8rem;
+    }
+    h1{font-size: 5rem;}
+    h2{font-size: 3.5rem;}
+  }
+  .btm {
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    padding:2rem 2.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    text-align: center;
+    white-space: nawrap ;
+    font-size: 1,4rem;
+  }
+.btm--primary{
+  background-color: var(--color-primaray);
+  color: var(--color-white);
+}
+.btm-secondary{
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+.btm-block{
+  width: 100px;
+  font-size: 1.6rem;
+}
+@media screen and (min-width:1024px) {
+  .btm{
+    font-size: 1.6rem;
+  }
+  .btm{
+    font-size: 2rem;
+  }
+}
