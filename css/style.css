@@ -89,3 +89,20 @@
   display: inline-block;
   margin-left: 2rem;
 }
+.list--tick .list--item {
+  background: url(/assts/images/tick.svg) no-repeat;
+  background-position: right center;
+  padding-right: 3rem;
+  margin-bottom: 1.5rem;
+}
+.list--tick .list--item{
+  background-color: #f8f8f8;
+  margin-bottom: 20px;
+}
+@media screen and(min-width:1024px) {
+  .list--tick .list--item{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  
+}
