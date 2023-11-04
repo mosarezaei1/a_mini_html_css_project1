@@ -110,11 +110,12 @@
 .block-plan{
   display: grid;
   gap: 2rem 3rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 .plan{
-  max-width: 500px;
+  /* max-width: 300px; */
   font-size: 1.8rem;
+  /* margin: .5rem; */
 }
 .card{
   border-radius: 20px;
@@ -135,7 +136,7 @@
 .plan__introduction{
   display: flex;
   justify-content: space-between;
-  margin-bottom:1.5rem ;
+  margin-bottom:1rem ;
 }
 .plan__price{
   font-size: 3rem;
